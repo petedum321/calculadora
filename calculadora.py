@@ -50,19 +50,19 @@ def main():
                 print("Resultado:", resultado)
             elif escolha == '2':
                 resultado = subtracao(num1, num2)
-                 if (resultado.imag == 0):
+                if (resultado.imag == 0):
                     resultado = resultado.real
                 print("Resultado:", resultado)
             elif escolha == '3':
                 resultado = multiplicacao(num1, num2)
-                 if (resultado.imag == 0):
+                if (resultado.imag == 0):
                     resultado = resultado.real
                 print("Resultado:", resultado)
             elif escolha == '4':
                 if num2 != 0:
                     resultado = divisao(num1, num2)
-                     if (resultado.imag == 0):
-                    resultado = resultado.real
+                    if (resultado.imag == 0):
+                            resultado = resultado.real
                     print("Resultado:", resultado)
                 else:
                     print("Erro: Divisão por zero!")
